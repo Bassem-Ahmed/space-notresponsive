@@ -1,0 +1,328 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: arial, tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    position: relative;
+    overflow-x: hidden;
+}
+/* start header */
+
+header
+{
+    height:90px;
+    background: #FFFFFF;
+}
+.container
+{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+header img
+{
+    margin-top: 23px;
+}
+
+header ul
+{
+    float: right;
+    list-style: none;
+    margin-top: 35px;
+}
+header ul li
+{
+    display: inline-block;
+    color: gray;
+    margin-left: 40px;
+    transition: .5s;
+}
+li:hover
+{
+    color: black;
+    transition: .5s;
+    cursor: pointer;
+}
+
+/* end header */
+
+/* start slider */
+
+.slider
+{
+    height: 90vh;
+    background: url("../images/Untitled.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.slider .color-opacity
+{
+    height: 100%;
+    background: rgba(113, 116, 141, 0.6);
+}
+.slider .container h2
+{
+    display: block;
+    margin: auto;
+    color: #E2E2E3;
+    font-size: 3em;
+    word-spacing: 15px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    line-height: 1.3em;
+    transform: translate(135px, 200px);
+    transition: 1.5s all ease-in-out;
+}
+.slider .container p
+{
+    color: #E2E2E3;
+    font-size: 1.5em;
+    word-spacing: 8px;
+    letter-spacing: 3px;
+    line-height: 1.4em;
+    transform: translate(135px, 280px);
+    transition: 2s all ease-in-out;
+}
+
+/* end slider */
+
+/* start about us */
+
+section .container h2
+{
+    margin-top: 130px;
+    font-size: 1.7em;
+    color: #333333;
+    margin-bottom: 1.5em;
+}
+section .container p
+{
+    color: gray;
+    line-height: 2em;
+    font-size: .90em;
+}
+section .container img
+{
+    width: 400px;
+    height: 360px;
+    float: right;
+    transform: translate(30px, -350px);
+}
+
+/* end about us */
+
+/* start article */
+
+article
+{
+    height: 600px;
+    background: #F2F2F2;
+    transform: translate(0, 100px);
+}
+article .image
+{
+    height: 600px;
+    width: 670px;
+    background-image: url("../images/Unewtfditled.png");
+    background-size: cover;
+    transform: translateX(-95px);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+article .container h2
+{
+    color: #333333;
+    transform: translate(600px, -495px);
+    font-size: 1.6em;
+}
+article .container p
+{
+    color: gray;
+    font-size: .9em;
+    line-height: 2em;
+    transform: translate(600px, -460px);
+}
+article .container button
+{
+    padding: 12px 17px;
+    color: white;
+    background: #655E7A;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.0em;
+    transform: translate(600px, -435px);
+    cursor: pointer;
+    outline: none;
+}
+
+/* end article */
+
+/* start our services */
+
+.services
+{
+    transform: translate(0px, 216px);
+    
+}
+.services h2
+{
+    text-align: center;
+    color: #333333;
+    font-size: 1.8em;
+}
+
+.services p
+{
+    color: gray;
+    font-size: .9em;
+    transform: translate(-64px, 22px);
+    width: 1216px;
+}
+
+.content
+{
+    width: 1158px;
+    transform: translate(-30px, 135px);
+}
+.services .content .items
+{
+    width: 266px;
+    height: 209px;
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.services .content .items img
+{
+    width: 55px;
+    height: 55px;
+    display: block;
+    margin: auto;
+}
+.services .content .items h6
+{
+    font-size: 1.1em;
+    text-align: center;
+    color: gray;
+    transform: translateY(28px);
+}
+.services .content .items p
+{
+    display: table-row-group;
+    text-align: center;
+    line-height: 1.5em;
+    transform: translate(0px, 43px);
+}
+
+/* end our services */
+
+/* start experience */
+
+.experience
+{
+    height: 330px;
+    transform: translateY(400px);
+    background: url("../images/Untitled.png");
+    background-size: cover;
+}
+.experience .color-opacity
+{
+    height: 100%;
+    background: rgba(74, 71, 86, 0.8);
+}
+.experience h2
+{
+    color: white;
+    text-align: center;
+    transform: translateY(70px);
+    font-weight: 300;
+    font-size: 1.8em;
+}
+.experience p
+{
+    color: white;
+    text-align: center;
+    transform: translateY(92px);
+    line-height: 1.5em;
+}
+.experience button
+{
+    border: 0;
+    padding: 17px 40px;
+    color: #2F2C3B;
+    border-radius: 6px;
+    outline: none;
+    background-color: white;
+    font-size: .9em;
+    transform: translate(440px, 138px);
+    cursor: pointer;
+}
+
+/* end experience */
+
+/* start fans about us */
+
+.fans-about-us
+{
+    transform: translate(0px, 500px);
+    
+}
+.fans-about-us h2
+{
+    text-align: center;
+    color: #333333;
+    font-size: 1.8em;
+}
+
+.fans-about-us p
+{
+    color: gray;
+    font-size: .9em;
+    transform: translate(-64px, 22px);
+    width: 1216px;
+}
+
+/* end fans about us */
+
+/* start navbar */
+
+nav
+{
+    height: 159px;
+    background-color: #F5F5F5;
+    transform: translateY(592px)
+}
+nav ul
+{
+    float: right;
+    list-style: none;
+    margin-top: 35px;
+    transform: translate(-271px, 10px);
+}
+nav ul li
+{
+    display: inline-block;
+    color: gray;
+    margin-left: 40px;
+    transition: .5s;
+    font-size: .94em;
+}
+nav p
+{
+    color: #333333;
+    font-size: .96em;
+    transform: translate(432px, 91px);
+}
+nav p span
+{
+    color: gray;
+    font-size: .83em;
+}
+
+/* end navbar */
